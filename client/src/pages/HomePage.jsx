@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/navbar/Navbar";
+import Sidebar from "../components/sidebar/Sidebar";
 import Hero from "../components/hero/Hero";
 import AboutMe from "../components/aboutme/AboutMe";
 import Projects from "../components/projects/Projects";
@@ -9,6 +10,7 @@ function HomePage() {
     return <>
         <div className="home">
             <Navbar />
+            <Sidebar />
             <Hero />
             <AboutMe />
             <Projects />

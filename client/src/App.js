@@ -6,7 +6,7 @@ import './styles/AboutPage.css';
 import { Routes, Route } from 'react-router';
 import HomePage from './pages/HomePage';
 import ProjectRoutes from './routes/ProjectRoutes';
-import AboutPage from './pages/AboutPage';
+// import AboutPage from './pages/AboutPage';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route index element={<HomePage />} />
         <Route path="projects" element={<ProjectRoutes />} />
-        <Route path="about" element={<AboutPage />} />
+        {/* <Route path="about" element={<AboutPage />} /> */}
       </Routes>
     </div>
   );

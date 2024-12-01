@@ -1,0 +1,23 @@
+/* ---- Navbar ---- */
+
+.navbar {
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    padding: 10px 25px;
+    justify-content: space-between;
+}
+
+.nav-right {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    all: unset;
+    color: gray;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: rgb(83, 83, 83);
+}
